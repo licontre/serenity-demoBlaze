@@ -15,6 +15,9 @@
 
 ## Run tests:
 * `mvn clean verify`
+* by default the test are run in headless mode
+* if you want to run the tests loading the UI, comment next line on file serenity.properties:
+  * headless.mode=true
 
 ## View HTML Report
 * HTML report will be generated once execution finish serenity-demoBlaze\target\site\serenity\index.html
