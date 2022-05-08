@@ -6,10 +6,8 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import net.thucydides.core.annotations.Steps;
 import org.junit.Assert;
-import org.junit.Before;
-
+import net.thucydides.core.annotations.Steps;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -79,10 +77,11 @@ public class BuyOneLaptopSteps {
     private  void logMessage(String message){
         LOGGER.log(Level.WARNING, message);
     }
+
     @Then("the order price is (\\d+)")
     public void theOrderPriceIsAndFinishTheOrder(int price) throws Exception {
         // Write code here that turns the phrase above into concrete actions
-        Assert.assertEquals(priceOrder,price);
+        demoBlazeActions.checkPrice(price,priceOrder);
         logMessage("OrderId: "+this.orderId+" -> "+this.priceOrder+" amount");
     }
     @And("finish the order")

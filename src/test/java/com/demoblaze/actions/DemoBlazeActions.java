@@ -1,7 +1,9 @@
 package com.demoblaze.actions;
 
 import com.demoblaze.pages.DemoBlaze;
+import cucumber.runtime.java.StepDefAnnotation;
 import net.thucydides.core.annotations.Step;
+import org.junit.Assert;
 
 import java.util.Locale;
 
@@ -93,7 +95,10 @@ public class DemoBlazeActions {
         }
         return  amount;
     }
-
+    @Step
+    public void checkPrice(int price,int expectedPrice){
+        Assert.assertEquals(price,expectedPrice);
+    }
     @Step
     public  void finishOrder(){
         demoBlazePage.finishOrder();
