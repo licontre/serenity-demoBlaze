@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Licontre/.m2/repository/net/serenity-bdd/serenity-model/3.2.1/serenity-model-3.2.1.jar" sourcepath="C:/Users/Licontre/.m2/repository/net/serenity-bdd/serenity-model/3.2.1/serenity-model-3.2.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="net.serenity-bdd"/>
+			<attribute name="maven.artifactId" value="serenity-model"/>
+			<attribute name="maven.version" value="3.2.1"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
