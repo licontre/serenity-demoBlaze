@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Search for a laptop and buy it" skipped="0" tests="3" time="33.5" timestamp="2022-05-09T00:15:31.964+02:00[Europe/Paris]"><testcase name="The user is on the application DemoBlaze and wants to buy something"><failure message="expected:&lt;230&gt; but was:&lt;400&gt;" type="java.lang.AssertionError">expected:&lt;230&gt; but was:&lt;400&gt;</failure><system-err>expected:&lt;230&gt; but was:&lt;400&gt;&#13;
+com.demoblaze.actions.DemoBlazeActions.checkPrice(DemoBlazeActions.java:100)&#13;
+com.demoblaze.steps.BuyOneLaptopSteps.theOrderPriceIsAndFinishTheOrder(BuyOneLaptopSteps.java:84)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
